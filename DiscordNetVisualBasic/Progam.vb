@@ -21,7 +21,7 @@ Module Program
         ' Create a new DiscordSocketClient
         client = New DiscordSocketClient(New DiscordSocketConfig())
         ' Define the token the bot will use to connect with
-        Dim token = "token"
+        Dim token = "MzY1MDQ1MzEwNzA5MzAxMjQ4.DLjjVw.sMy8XyKE09fRvMjRzfDj8YvmGvk"
         ' Login and connect to Discord
         Await client.LoginAsync(TokenType.Bot, token)
         Await client.ConnectAsync()
